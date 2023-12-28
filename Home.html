@@ -12,21 +12,25 @@
       <hr class="linebreak" />
       <div class="formContainer">
         <h1 id="formHeading">Bookmark Your Favorite Sites</h1>
-        <form class="formControl">
+        <form id="formControl">
           <div>
             <div class="formEle">
               <label for=""><strong>Site Name</strong></label>
               <br />
-              <input type="text" />
+              <input type="text" id="siteName" required>
             </div>
             <div class="formEle">
               <label for=""><strong>Site URL</strong></label>
               <br />
-              <input type="text" />
+              <input type="text" id="url" required>
             </div>
           </div>
           <button class="btn"><strong>Submit</strong></button>
         </form>
+      </div>
+
+      <div class="bookmarkResult">
+        
       </div>
     </div>
     <script src="Home.js"></script>
